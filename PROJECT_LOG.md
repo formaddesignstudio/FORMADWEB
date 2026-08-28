@@ -65,6 +65,7 @@ FORMADWEB/
 ├─ logo.png                 ← 구조화 데이터(JSON-LD)의 로고 필드용
 ├─ robots.txt               ← 검색엔진 수집 허용 + 사이트맵 위치
 ├─ sitemap.xml              ← 검색엔진에 제출할 주소 목록
+├─ googlee0ff9339882f2211.html  ← 구글 소유확인 파일 ⚠️ 지우면 안 됨
 ├─ supabase/schema.sql      ← (준비만 해둠) Supabase 테이블 + RLS 스키마
 ├─ _images_for_supabase/    ← (준비만 해둠) 추출한 원본 이미지 13장 · git 제외
 └─ PROJECT_LOG.md           ← 이 문서
@@ -295,6 +296,12 @@ PHOTOS   = { 키: { a: "가로/세로", u: "data:image/webp;base64,..." } }
    - "도메인" 방식은 DNS 설정이 필요해서 더 번거롭습니다. **URL 접두어를 고르세요.**
 3. 소유권 확인 → **HTML 파일 업로드** 방식 선택 → 파일 다운로드
    → 그 파일을 `FORMADWEB` 폴더에 넣고 Push하면 됩니다 (필요하면 처리해 드립니다)
+
+   > ⚠️ **`googlee0ff9339882f2211.html` 파일을 절대 지우지 마세요.**
+   > 2026-08-28에 추가한 구글 소유확인 파일입니다. 내용은 한 줄뿐이고 쓸모없어 보이지만,
+   > **이 파일이 사라지면 구글이 소유확인을 해제하고 서치 콘솔 데이터가 끊깁니다.**
+   > 구글은 주기적으로 이 파일의 존재를 재확인합니다. 그냥 두세요.
+   > 확인 주소: https://www.formadarchitects.com/googlee0ff9339882f2211.html
 4. 확인 완료 후 → 왼쪽 **Sitemaps** → `sitemap.xml` 입력 → 제출
 5. 위쪽 검색창에 `https://www.formadarchitects.com/` 입력 → **색인 생성 요청** 클릭
 
