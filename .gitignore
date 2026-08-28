@@ -1,0 +1,8 @@
+# 작업 중 만들어지는 백업 파일 (GitHub에 올릴 필요 없음)
+*.bak
+*.orig
+
+# OS가 자동으로 만드는 파일
+Thumbs.db
+desktop.ini
+.DS_Store
