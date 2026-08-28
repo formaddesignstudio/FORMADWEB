@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  현재 사이트는 해시 라우팅(#/project 등)이라 검색엔진에게는 주소가 하나뿐입니다.
+  나중에 /project, /about 처럼 실제 경로로 바꾸면 여기에 줄을 추가하면 됩니다.
+  lastmod 는 사이트 내용을 크게 고칠 때마다 날짜를 갱신해 주세요.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.formadarchitects.com/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

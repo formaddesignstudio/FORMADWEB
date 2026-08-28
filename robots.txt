@@ -1,0 +1,15 @@
+# FORMAD Design Studio — https://www.formadarchitects.com
+# 모든 검색엔진의 수집을 허용합니다.
+
+User-agent: *
+Allow: /
+
+# 네이버 검색로봇 (Yeti) — 명시적으로 허용
+User-agent: Yeti
+Allow: /
+
+# 다음/카카오 검색로봇
+User-agent: daum
+Allow: /
+
+Sitemap: https://www.formadarchitects.com/sitemap.xml

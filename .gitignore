@@ -2,6 +2,10 @@
 *.bak
 *.orig
 
+# Supabase 이관용으로 뽑아둔 원본 이미지 (아직 사용 전, 약 3MB)
+# 원본은 index.html 안에 base64로 그대로 남아 있으므로 잃어버릴 걱정 없음
+_images_for_supabase/
+
 # OS가 자동으로 만드는 파일
 Thumbs.db
 desktop.ini
