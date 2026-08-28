@@ -16,8 +16,11 @@
 아래 3개는 계정 로그인이 필요해서 직접 하셔야 합니다. 자세한 절차는
 [6. 검색엔진 등록 절차](#6-검색엔진-등록-절차-직접-해야-하는-작업) 참고.
 
-1. **구글 서치 콘솔** — search.google.com/search-console
+1. ~~**구글 서치 콘솔**~~ ✅ **2026-08-28 완료** — 소유확인(HTML 파일) + 색인 생성 요청까지 마침.
+   → 이제 구글이 방문할 때까지 기다리는 단계. `site:formadarchitects.com` 로 확인
 2. **네이버 서치어드바이저** — searchadvisor.naver.com
+   → 2026-08-28 소유확인 파일(`navere80d...html`) 추가함. 소유확인 후
+     **사이트맵 제출 + 웹페이지 수집 요청**까지 해야 끝남
 3. **네이버 스마트플레이스** — smartplace.naver.com  ← 네이버 노출에는 이게 제일 효과적
 
 > 소유확인 단계에서 "HTML 파일을 올리세요" 또는 "DNS TXT 레코드를 추가하세요" 화면이 나오면
@@ -66,6 +69,7 @@ FORMADWEB/
 ├─ robots.txt               ← 검색엔진 수집 허용 + 사이트맵 위치
 ├─ sitemap.xml              ← 검색엔진에 제출할 주소 목록
 ├─ googlee0ff9339882f2211.html  ← 구글 소유확인 파일 ⚠️ 지우면 안 됨
+├─ navere80d66fafdc779f5394f3ffd793c06b4.html  ← 네이버 소유확인 파일 ⚠️ 지우면 안 됨
 ├─ supabase/schema.sql      ← (준비만 해둠) Supabase 테이블 + RLS 스키마
 ├─ _images_for_supabase/    ← (준비만 해둠) 추출한 원본 이미지 13장 · git 제외
 └─ PROJECT_LOG.md           ← 이 문서
