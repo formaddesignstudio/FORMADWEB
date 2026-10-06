@@ -303,6 +303,15 @@ PHOTOS   = { 키: { a: "가로/세로", u: "data:image/webp;base64,..." } }
 - `index.html` 크기가 약 4.2MB → 5.3MB로 늘어남 (Supabase로 이미지를 옮기면 해결됨)
 - 수정 전 백업: `index_before_UBH.html.bak` (git 제외)
 
+### 2026-10-06 — 울란바토르 주거단지(A2501_UBH) 삭제 ❌
+
+- **사유: 클라이언트가 공개 불가 요청.** 위 9/28 항목에서 추가한 것을 전부 제거함
+  - `PHOTOS.ubh_hero`(base64 이미지), `PROJECTS`의 A2501_UBH 항목, `KRP` 국문 항목, 번역 키 `st.Proposal`
+- 9/28의 **홈 슬라이드쇼 버그 수정은 유지** (`featured` 가 없을 때만 대체). 홈에는 실제 프로젝트 2개만 나옴
+- `index.html` 5.3MB → 약 4.2MB. `index_before_UBH.html.bak` 와 비교해 차이는 위 버그 수정 한 줄뿐임을 확인
+- 삭제 전 백업: `index_before_UBH_removal.html.bak` (git 제외 · **공개 불가 이미지가 들어 있으므로 확인 후 삭제 권장**)
+- `_images_for_supabase/A2501_UBH_hero.jpg` 도 Supabase 이관 대상에서 제외할 것
+
 ### 알려진 이슈 / 참고사항
 
 - **이 PC에 Git 명령줄 도구가 설치되어 있지 않습니다.** GitHub Desktop만 있습니다.
